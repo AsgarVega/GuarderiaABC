@@ -40,7 +40,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="guarderiaabc.TutorAlta" name="tutorAlta1">
+    <Component class="guarderiaabc.FormularioTutor" name="tutorAlta1">
     </Component>
   </SubComponents>
 </Form>

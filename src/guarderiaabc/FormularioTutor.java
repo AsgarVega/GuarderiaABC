@@ -9,12 +9,12 @@ package guarderiaabc;
  *
  * @author leidy
  */
-public class TutorAlta extends javax.swing.JPanel {
+public class FormularioTutor extends javax.swing.JPanel {
 
     /**
      * Creates new form TutorAlta
      */
-    public TutorAlta() {
+    public FormularioTutor() {
         initComponents();
     }
 

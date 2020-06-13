@@ -9,12 +9,12 @@ package guarderiaabc;
  *
  * @author leidy
  */
-public class Empleado extends javax.swing.JPanel {
+public class FormularioEmpleado extends javax.swing.JPanel {
 
     /**
      * Creates new form Empleado
      */
-    public Empleado() {
+    public FormularioEmpleado() {
         initComponents();
     }
 

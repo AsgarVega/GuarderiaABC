@@ -27,7 +27,7 @@ public class Principal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        tutorAlta1 = new guarderiaabc.TutorAlta();
+        tutorAlta1 = new guarderiaabc.FormularioTutor();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -86,6 +86,6 @@ public class Principal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private guarderiaabc.TutorAlta tutorAlta1;
+    private guarderiaabc.FormularioTutor tutorAlta1;
     // End of variables declaration//GEN-END:variables
 }
