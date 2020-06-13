@@ -27,7 +27,7 @@ public class Principal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        tutorAlta1 = new guarderiaabc.FormularioTutor();
+        usuario1 = new guarderiaabc.Usuario();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -36,14 +36,15 @@ public class Principal extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(tutorAlta1, javax.swing.GroupLayout.DEFAULT_SIZE, 410, Short.MAX_VALUE)
+                .addContainerGap()
+                .addComponent(usuario1, javax.swing.GroupLayout.DEFAULT_SIZE, 400, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(tutorAlta1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(usuario1, javax.swing.GroupLayout.DEFAULT_SIZE, 300, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -86,6 +87,6 @@ public class Principal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private guarderiaabc.FormularioTutor tutorAlta1;
+    private guarderiaabc.Usuario usuario1;
     // End of variables declaration//GEN-END:variables
 }
