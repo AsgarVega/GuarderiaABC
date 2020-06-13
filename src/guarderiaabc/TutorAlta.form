@@ -102,6 +102,9 @@
       </Properties>
     </Component>
     <Component class="java.awt.TextField" name="textField1">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
     </Component>
     <Component class="java.awt.Label" name="label3">
       <Properties>

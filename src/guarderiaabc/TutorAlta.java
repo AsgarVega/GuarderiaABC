@@ -46,6 +46,8 @@ public class TutorAlta extends javax.swing.JPanel {
 
         label2.setText("ID Tutor");
 
+        textField1.setEditable(false);
+
         label3.setText("Nombre");
 
         label4.setText("Apellido paterno");
