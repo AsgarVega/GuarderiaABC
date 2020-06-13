@@ -42,7 +42,7 @@ public class TutorAlta extends javax.swing.JPanel {
         textField7 = new java.awt.TextField();
 
         label1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        label1.setText("Alta de Tutor");
+        label1.setText("Registro de Tutor");
 
         label2.setText("ID Tutor");
 

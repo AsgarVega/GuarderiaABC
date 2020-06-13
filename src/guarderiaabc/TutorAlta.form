@@ -93,7 +93,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Dialog" size="18" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Alta de Tutor"/>
+        <Property name="text" type="java.lang.String" value="Registro de Tutor"/>
       </Properties>
     </Component>
     <Component class="java.awt.Label" name="label2">
