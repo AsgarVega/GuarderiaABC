@@ -35,12 +35,19 @@ public class FormularioObservaciones extends javax.swing.JPanel {
         btnEnviar = new java.awt.Button();
         btnCancelar = new java.awt.Button();
 
+        setBackground(new java.awt.Color(0, 0, 0));
+
         lblObservaciones.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        lblObservaciones.setForeground(new java.awt.Color(255, 255, 255));
         lblObservaciones.setText("Observaciones");
 
-        lblInfante.setText("Infante");
+        lblInfante.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        lblInfante.setForeground(new java.awt.Color(255, 255, 255));
+        lblInfante.setText("Infante:");
 
-        lblCausa.setText("Causa/Detalles");
+        lblCausa.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        lblCausa.setForeground(new java.awt.Color(255, 255, 255));
+        lblCausa.setText("Causa/Detalles:");
 
         btnEnviar.setLabel("Enviar");
         btnEnviar.addActionListener(new java.awt.event.ActionListener() {
@@ -80,7 +87,7 @@ public class FormularioObservaciones extends javax.swing.JPanel {
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                 .addComponent(txtInfante, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(textArea1, javax.swing.GroupLayout.DEFAULT_SIZE, 244, Short.MAX_VALUE)))))
-                .addContainerGap(26, Short.MAX_VALUE))
+                .addContainerGap(24, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
