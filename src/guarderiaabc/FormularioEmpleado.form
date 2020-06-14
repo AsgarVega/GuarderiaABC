@@ -34,14 +34,14 @@
               <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Component id="lblEmpleado" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtID" max="32767" attributes="0"/>
                   <Component id="txtNombre" alignment="0" max="32767" attributes="0"/>
                   <Component id="txtPaterno" max="32767" attributes="0"/>
                   <Component id="txtMaterno" max="32767" attributes="0"/>
                   <Component id="jComboBox1" pref="214" max="32767" attributes="0"/>
                   <Component id="jComboBox2" alignment="1" max="32767" attributes="0"/>
+                  <Component id="txtID" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace pref="27" max="32767" attributes="0"/>
+              <EmptySpace pref="260" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -80,7 +80,7 @@
                   <Component id="lblStatus" min="-2" max="-2" attributes="0"/>
                   <Component id="jComboBox2" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="42" max="32767" attributes="0"/>
+              <EmptySpace pref="30" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -109,9 +109,9 @@
       </Properties>
     </Component>
     <Component class="java.awt.TextField" name="txtID">
-      <Properties>
-        <Property name="editable" type="boolean" value="false"/>
-      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtIDKeyTyped"/>
+      </Events>
     </Component>
     <Component class="java.awt.Label" name="lblNombre">
       <Properties>
@@ -125,6 +125,10 @@
       </Properties>
     </Component>
     <Component class="java.awt.TextField" name="txtNombre">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNombreActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNombreKeyTyped"/>
+      </Events>
     </Component>
     <Component class="java.awt.Label" name="lblPaterno">
       <Properties>
@@ -138,6 +142,9 @@
       </Properties>
     </Component>
     <Component class="java.awt.TextField" name="txtPaterno">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtPaternoKeyTyped"/>
+      </Events>
     </Component>
     <Component class="java.awt.Label" name="lblMaterno">
       <Properties>
@@ -153,6 +160,7 @@
     <Component class="java.awt.TextField" name="txtMaterno">
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMaternoActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtMaternoKeyTyped"/>
       </Events>
     </Component>
     <Component class="java.awt.Label" name="lblEspecializacion">
