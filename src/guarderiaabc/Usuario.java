@@ -39,21 +39,21 @@ public class Usuario extends javax.swing.JPanel {
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/guarderiaabc/descargar.png"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 10, 200, 160));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 10, 200, 160));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Usuario: ");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, -1, -1));
-        add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 190, 170, -1));
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 210, -1, -1));
+        add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 210, 170, -1));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Contraseña:");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 230, -1, -1));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 270, -1, -1));
 
         jPasswordField1.setText("jPasswordField1");
-        add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 230, 170, -1));
+        add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 270, 170, -1));
 
         jButton1.setText("Entrar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -61,7 +61,7 @@ public class Usuario extends javax.swing.JPanel {
                 jButton1ActionPerformed(evt);
             }
         });
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 260, 100, -1));
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 330, 100, -1));
 
         jButton2.setText("Salir");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -69,7 +69,7 @@ public class Usuario extends javax.swing.JPanel {
                 jButton2ActionPerformed(evt);
             }
         });
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 260, 100, -1));
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 400, 100, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
